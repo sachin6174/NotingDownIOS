@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct NoteItApp: App {
+    let persistenceController = CoreDataStack.shared
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistenceController.context)
         }
     }
 }
