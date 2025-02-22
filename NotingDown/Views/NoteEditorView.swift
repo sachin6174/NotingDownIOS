@@ -23,7 +23,7 @@ struct NoteEditorView: View {
                 }
             }
             .scrollContentBackground(.hidden)  // Disable default form background
-            .background(Color.pink.opacity(0.2))  // Apply light pink background
+            .background(Color(red: 78 / 255, green: 187 / 255, blue: 120 / 255).opacity(0.2))  // Apply new background color
             .navigationTitle(note == nil ? "Add Note" : "Edit Note")
             .navigationBarItems(
                 leading: Button("Cancel") {

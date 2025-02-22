@@ -8,13 +8,14 @@ struct NoteDetailView: View {
             Text(note.title ?? "Untitled")
                 .font(.largeTitle)
                 .bold()
+                .frame(maxWidth: .infinity, alignment: .center)
             Divider()
             Text(note.noteDescription ?? "No description provided.")
                 .font(.body)
             Spacer()
         }
-        .padding(.bottom, 0)  // Added bottom padding of 10
-        .background(Color.pink.opacity(0.2))
+        .padding(EdgeInsets(top: 0, leading: 30, bottom: 30, trailing: 30))
+        .background(Color(red: 78 / 255, green: 187 / 255, blue: 120 / 255).opacity(0.2))
         .toolbar {
             ToolbarItem(placement: .principal) {
                 Text("Detail")
