@@ -56,7 +56,7 @@ NotingDown is optimized for iPhone and iPad running iOS 16 and above. Experience
 Developed with passion, NotingDown combines modern design with the convenience of digital note taking. Whether you're organizing your daily tasks or jotting down creative ideas, NotingDown is your perfect companion.
 
 <div align="center">
-  <img src="./NotingDown/ReleseImages/Screenshot 2025-02-25 at 12.57.03 AM.png" style="border-radius: 10px;">
+  <img src="./NotingDown/ReleseImages/Screenshot 2025-02-25 at 12.57.03 AM.png" style="border-radius: 10px;">
 </div>
 
 ---
