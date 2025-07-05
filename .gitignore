@@ -12,9 +12,19 @@ DerivedData/
 xcuserdata/
 *.xccheckout
 *.xcuserstate
+*.xcscmblueprint
 
 # Xcode Workspace
 *.xcworkspace
+xcshareddata/
+
+# Xcode Results
+*.xcresult
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
 
 # CocoaPods
 Pods/
@@ -22,14 +32,57 @@ Pods/
 # Carthage
 Carthage/Build/
 
-# Swift Package Manager
-.build/
-
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/
 
-# Other
+# Crash reports
+*.crash
+*.xcactivitylog
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# User settings
 *.swp
 *.lock
+
+# Preview Content
+NotingDown/Preview Content/
+
+# Release Images
+NotingDown/ReleseImages/
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Xcode Archives
+*.xcarchive
+
+# Merge conflict files
+*.orig
+
+# Environment files
+.env
+
+# Xcode temp files
+*.moved-aside
+
+# Code coverage
+.coverage/
+
+# SwiftLint config (optional, remove if you want to share)
+.swiftlint.yml
